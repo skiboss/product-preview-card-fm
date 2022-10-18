@@ -192,6 +192,12 @@ html, body {
         align-self: stretch;
     }
 
+    .section-one img {
+        border-radius: var(--br) 0 0 var(--br);
+        width: 100%;
+        height: 100%;
+    }
+
     .section-two {
         display: flex;
         flex-direction: column;
