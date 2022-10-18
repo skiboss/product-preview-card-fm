@@ -127,12 +127,12 @@ html, body {
     line-height: 0.2;
 }
 
-@media screen and (min-width: 709px) {
+@media screen and (min-width: 800px) {
    
     .wrapper {
         width: 70%;
         margin: 0 auto;
-        /* padding: 0rem; */
+        padding: 7rem 0 7rem;
     }
 
     .section {
@@ -163,13 +163,24 @@ html, body {
         width: 100%;
         height: 100%;
     }
+
+    .subtitle h1 {
+        font-size: 2rem !important;
+    }
+
+    .discount-price {
+        font-size: 2rem !important;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 712px) {
     .wrapper {
         width: 75%;
         margin: 0 auto;
-        /* padding: 0rem; */
     }
 
     .section {
@@ -179,6 +190,12 @@ html, body {
     .section-one, .section-two {
         width: 50%;
         align-self: stretch;
+    }
+
+    .section-two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .img-sm {
@@ -199,7 +216,7 @@ html, body {
         font-size: 1.9rem;
     }
 
-    price {
+    .price {
         margin-top: 1.5rem;
         display: flex;
         align-items: center;
