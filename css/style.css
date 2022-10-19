@@ -20,8 +20,8 @@
 html, body {
     font-family: var(--font-primary);
     background-color: var(--cream);
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,11 +29,12 @@ html, body {
 
 .wrapper {
     width: 65%;
+    /* height: 50%; */
     margin: 0 auto;
 }
 
 .section {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -130,9 +131,8 @@ html, body {
 @media screen and (min-width: 800px) {
    
     .wrapper {
-        width: 70%;
-        margin: 0 auto;
-        padding: 7rem 0 7rem;
+        width: 60% !important;
+        /* padding: 7rem 0 7rem; */
     }
 
     .section {
@@ -161,7 +161,7 @@ html, body {
     .section-one img {
         border-radius: var(--br) 0 0 var(--br);
         width: 100%;
-        height: 100%;
+        /* height: 100%; */
     }
 
     .subtitle h1 {
