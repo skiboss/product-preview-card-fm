@@ -25,6 +25,7 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .wrapper {
@@ -339,5 +340,5 @@ html, body {
 
 /* Attribution Style */
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; padding-top: 15px; }
 .attribution a { color: hsl(228, 45%, 44%); }
