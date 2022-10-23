@@ -28,13 +28,12 @@ html, body {
 }
 
 .wrapper {
-    width: 65%;
-    /* height: 50%; */
+    width: 75%;
+    /* max-width: 630px; */
     margin: 0 auto;
 }
 
 .section {
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -46,7 +45,6 @@ html, body {
 .section-one img {
     border-radius: var(--br) var(--br) 0 0;
     width: 100%;
-    height: 100%;
 }
 
 .img-dt {
@@ -128,12 +126,26 @@ html, body {
     line-height: 0.2;
 }
 
-@media screen and (min-width: 800px) {
-   
+@media screen and (min-width: 870px) {
     .wrapper {
-        width: 60% !important;
-        /* padding: 7rem 0 7rem; */
+        width: 75%;
+        max-width: 600px;
+        margin: 0 auto;
     }
+
+    .price {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px !important;
+        
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+    
 
     .section {
         flex-direction: row;
@@ -160,8 +172,11 @@ html, body {
 
     .section-one img {
         border-radius: var(--br) 0 0 var(--br);
-        width: 100%;
-        /* height: 100%; */
+        object-fit: cover;
+    }
+
+    .section-one {
+        /* flex-grow: 1; */
     }
 
     .subtitle h1 {
@@ -173,13 +188,12 @@ html, body {
     }
 
     .content p {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
 @media screen and (min-width: 712px) {
     .wrapper {
-        width: 75%;
         margin: 0 auto;
     }
 

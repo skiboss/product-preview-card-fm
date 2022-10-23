@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Product Preview Card Solution](https://github.com/skiboss/product-preview-card-fm)
-- Live Site URL: [Product Preview Card App](https://skiboss.github.io/product-preview-card-fm/)
+- Live Site URL: [Product Preview Card Site](https://skiboss.github.io/product-preview-card-fm/)
 
 ## My process
 
