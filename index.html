@@ -13,12 +13,18 @@
 
 </head>
 <body>
-  <div class="wrapper" role="banner">
+  <main class="wrapper" role="banner">
 
     <div class="section" role="main">
       <div class="section-one" role="article">
-        <img class="img-sm" src="./images/image-product-mobile.jpg" alt="mobile-product" />
-        <img class="img-dt" src="./images/image-product-desktop.jpg" alt="desktop-product" />
+        <!-- <img class="img-sm" src="./images/image-product-mobile.jpg" alt="image of product for mobile screens" />
+        <img class="img-dt" src="./images/image-product-desktop.jpg" alt="image of product for desktop screens" /> -->
+
+        <picture role="image">
+          <source srcset="./images/image-product-desktop.jpg" media="(min-width: 712px)">
+          <img src="./images/image-product-mobile.jpg" alt="A description of the product." 
+            loading="lazy" decoding="async">
+        </picture>
       </div>
       <div class="section-two" role="article">
         <div class="title">
@@ -33,7 +39,7 @@
         </div>
         <div class="price">
           <span class="discount-price">$149.99</span>
-          <span class="normal-price"><s>$169.99</s></span>
+          <span class="normal-price"><del aria-label="this is the old price">$169.99</del></span>
         </div>
         <div class="add-to-cart">
             <span class="cart-img"><img src="./images/icon-cart.svg" alt="cart-icon" role="button"/></span>
@@ -42,7 +48,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
   
 
 

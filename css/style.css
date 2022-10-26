@@ -41,6 +41,7 @@ html, body {
     flex-direction: column;
     background-color: var(--white);
     border-radius: var(--br);
+    /* box-shadow: ; */
 }
 
 .section-one img {
